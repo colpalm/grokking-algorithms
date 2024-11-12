@@ -1,0 +1,25 @@
+# IntelliJ and IDE-specific files
+.idea/
+*.iml
+
+# Java build output directories
+out/
+target/  # for Maven
+build/   # for Gradle
+*.class # Java bytecode files
+
+# Python virtual environment
+python/venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
