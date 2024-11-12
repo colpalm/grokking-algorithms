@@ -6,7 +6,9 @@
 out/
 target/  # for Maven
 build/   # for Gradle
-*.class # Java bytecode files
+
+# Java bytecode files (.class)
+*.class
 
 # Python virtual environment
 python/venv/
