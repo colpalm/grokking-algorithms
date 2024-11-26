@@ -8,7 +8,8 @@ class SelectionSort2:
                 if arr[j] < arr[smallest_index]:
                     smallest_index = j
 
-            arr[i], arr[smallest_index] = arr[smallest_index], arr[i]
+            if smallest_index != i:
+                arr[i], arr[smallest_index] = arr[smallest_index], arr[i]
 
 
 if __name__ == "__main__":

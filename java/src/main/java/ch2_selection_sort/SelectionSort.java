@@ -7,10 +7,10 @@ import java.util.List;
 public class SelectionSort {
     public static void main(String[] args) {
         List<Integer> testList = new ArrayList<>(Arrays.asList(5, 3, 6, 2, 10, -5));
-        System.out.println(selection_sort(testList));
+        System.out.println(selectionSort(testList));
     }
 
-    public static List<Integer> selection_sort(List<Integer> arr) {
+    public static List<Integer> selectionSort(List<Integer> arr) {
         List<Integer> outputList = new ArrayList<>(arr.size());
         List<Integer> copyList = new ArrayList<>(arr); // Copy list so original isn't mutated
 
