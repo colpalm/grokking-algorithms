@@ -2,7 +2,7 @@ package ch1_introduction_to_algorithms;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] myList = {87, 21, 45, 93};
+        int[] myList = {21, 45, 87, 93};
 
         System.out.println(binarySearch(myList, 93));
         System.out.println(binarySearch(myList, 16));
